@@ -1,0 +1,1 @@
+pg.hotkey('ctrl','w')
