@@ -73,7 +73,7 @@ for link in final_activity_links:
     browser.get(link)
 
 
-qw
+
 
 
 
