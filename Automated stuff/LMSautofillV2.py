@@ -8,11 +8,10 @@ ATTENDANCE_URL = 'https://mydy.dypatil.edu/rait/blocks/academic_status/ajax.php?
 TIMETABLE_URL = 'https://mydy.dypatil.edu/rait/blocks/academic_status/ajax.php?action=timetable' 
 
 
-# email = input("Enter college email: ")
-# password = input("Enter college password: ")
+email = input("Enter college email: ")
+password = input("Enter college password: ")
 
-email = "vik.cha.rt22@dypatil.edu"
-password = "gp@272153"
+# email = "vik.cha.rt22@dypatil.edu"
 delay = 0.1
 
 auth_result : requests.Response = requests.post(
