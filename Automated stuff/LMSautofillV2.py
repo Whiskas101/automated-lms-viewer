@@ -11,7 +11,6 @@ TIMETABLE_URL = 'https://mydy.dypatil.edu/rait/blocks/academic_status/ajax.php?a
 email = input("Enter college email: ")
 password = input("Enter college password: ")
 
-# email = "vik.cha.rt22@dypatil.edu"
 delay = 0.1
 
 auth_result : requests.Response = requests.post(
